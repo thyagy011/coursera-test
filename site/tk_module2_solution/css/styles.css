@@ -26,45 +26,31 @@
 	  overflow: auto;
 	}
 
-	#p1{
-	  border: 1px solid black;
-	  background-color: pink;
-	  font-family: Helvetica;
-	  color: black;
-	  float: right;
-	  text-align: center;
-	  font-size: 15px;
-	  margin: 0px;
-	  padding: 5px;
-	  width: 100px;
+	.title{
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+		float: right;
+	    text-align: center;
+	    font-size: 15px;
+	    margin: 0px;
+	    padding: 5px;
+	    width: 100px;
 	    position: relative;
+	    font-family: Helvetica;
+	}
+
+	#p1{
+	  background-color: pink;
+	  color: black;
 	}
 
 	#p2{
-	  border: 1px solid black;
 	  background-color: red;
-	  font-family: Helvetica;
 	  color: white;
-	  float: right;
-	  text-align: center;
-	  font-size: 15px;
-	  margin: 0px;
-	  padding: 5px;
-	  width: 100px;
-	    position: relative;
 	}
 	#p3{
-	  border: 1px solid black;
 	  background-color: #e7e730;
-	  font-family: Helvetica;
 	  color: black;
-	  float: right;
-	  text-align: center;
-	  font-size: 15px;
-	  margin: 0px;
-	  padding: 5px;
-	  width: 100px;
-	    position: relative;
 	}
 	.row {
 	   align-items: center;
@@ -81,6 +67,8 @@
        background-color: gray;
 	   border: 1px solid black;  
 	}
+
+
 
 	/********** Desktop **********/
 	@media (min-width: 992px) {
