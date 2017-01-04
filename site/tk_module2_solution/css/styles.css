@@ -170,7 +170,7 @@
 	    width: 100%;
 	  }
 	}
-	/********* Mobile *********/
+	/********* Mobile *******/
 	@media (max-width: 767px){
 	  .col-sm-1 {
 	   float: left;
